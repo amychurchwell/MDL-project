@@ -1,5 +1,10 @@
 body{
   font-family: 'Roboto', sans-serif;
+  background-color: #fdfdfd;
+}
+
+a{
+  color: rgb(245, 66, 54)
 }
 
 .mdl-layout__drawer-button, .mdl-layout__drawer{
@@ -10,10 +15,13 @@ body{
 .mdl-layout__drawer{
     transform:translateX(250px);
 }
+.mdl-layout__header-row {
+    background: #424240;
+}
 .section--hero{
-  background-color: #263238;
   background-image: url("../img/home-background.jpg");
-  background-position-y: center;
+  background-color: #263238;
+  background-position-y: 34%;
   background-size: cover;
   padding: 0;
   width: 100%;
@@ -23,23 +31,22 @@ body{
 }
 .hero-left{
   padding: 5%;
-  color: white;
 }
 .hero-right{
-  background: #263238;
+  background-color: #000000c7;
   padding: 5%;
-
+  border-radius: 10px;
 }
 .hero-right h4{
-  border-bottom: 4px solid #00838f;
+  border-bottom: 4px solid #f44336;
   padding-bottom: 10px;
 }
 .hero-right p {
-  border-bottom: 2px solid #00838f;
+  border-bottom: 2px solid #ffe600;
   padding-bottom: 10px;
   text-transform: uppercase;
   font-weight: bold;
-  color: #859ba6;
+  color: #949494;
 
 }
 .hero-right a{
@@ -52,4 +59,80 @@ body{
 h1, h2, h3, h4{
   font-family: 'Lora', serif;
   font-weight: 700;
+  color: black;
+}
+
+.demo-card-square.mdl-card {
+  width: 100%;
+  height: 320px;
+}
+
+#bg1 {
+  background-image: url('../img/monkey1.jpeg');
+  background-size: cover;
+  background-position-y: 34%;
+}
+
+#bg2 {
+  background-image: url('../img/monkey2.jpeg');
+  background-size: cover;
+  background-position-y: 34%;
+}
+
+#bg3 {
+  background-image: url('../img/monkey3.jpeg');
+  background-size: cover;
+  background-position-y: 50%;
+}
+
+#bg4 {
+  background-image: url('../img/monkey4.jpeg');
+  background-size: cover;
+  background-position-y: 34%;
+}
+
+#bg5 {
+  background-image: url('../img/monkey5.jpeg');
+  background-size: cover;
+  background-position-y: 34%;
+}
+
+#bg6 {
+  background-image: url('../img/monkey6.jpeg');
+  background-size: cover;
+  background-position-y: 34%;
+}
+
+.mdl-card__title-text {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.display-2 {
+  font-weight: 400;
+  font-size: 20px;
+}
+.seperator{
+  background-color: #cfd8dc;
+  height: 1px;
+  margin: 20px auto 0;
+  width: calc(100% - 40px);
+}
+
+.worser{
+  padding-left: 30px;
+}
+
+.case-worses{
+  background-color: #c3c3c3;
+}
+
+.title{
+  line-height: 43px;
+}
+
+.why-worse{
+  width: 50%;
+  margin-left: 50%;
+  border-radius: 5%;
 }
